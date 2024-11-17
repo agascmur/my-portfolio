@@ -75,13 +75,14 @@ section p {
     flex-direction: column;
     gap: 1.5rem;
     margin: 2rem 0;
+    padding: 0 1rem; /* Ensure padding around edges */
 }
 
 /* Project Card */
 .project-card {
     width: 100%;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 auto; /* Center the card */
     padding: 1.5rem;
     border: 1px solid var(--muted);
     border-radius: 8px;
@@ -92,6 +93,7 @@ section p {
     text-align: left;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box; /* Ensures padding and border are included in width/height */
 }
 
 .project-card p {
@@ -145,15 +147,40 @@ footer {
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center; /* Center header content */
+        text-align: center; /* Center align text for nav links */
     }
 
     .header nav {
         justify-content: center;
         flex-wrap: wrap;
+        gap: 0.5rem; /* Reduce space between nav links */
+    }
+
+    .project-grid {
+        padding: 0 1rem; /* Ensure consistent padding on smaller screens */
     }
 
     .project-card {
         padding: 1rem;
+        max-width: calc(100% - 2rem); /* Maintain even spacing on sides */
+    }
+
+    section p {
+        font-size: 0.9rem; /* Adjust text size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 1.5rem; /* Scale down heading sizes for very small screens */
+    }
+
+    .project-card {
+        padding: 0.8rem; /* Further reduce padding on very small screens */
+    }
+
+    .header nav a {
+        padding: 0.3rem 0.8rem; /* Reduce link padding for compactness */
     }
 }
