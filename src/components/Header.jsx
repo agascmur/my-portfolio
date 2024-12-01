@@ -4,7 +4,7 @@ import './../styles/components.css';
 const Header = () => {
   return (
     <header className="header">
-      <h1>Your Name</h1>
+      <h1>@agascmur</h1>
       <nav>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>

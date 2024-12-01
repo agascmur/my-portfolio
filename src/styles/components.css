@@ -171,16 +171,25 @@ footer {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
     h1, h2 {
-        font-size: 1.5rem; /* Scale down heading sizes for very small screens */
+        font-size: 1.2rem;
     }
 
     .project-card {
-        padding: 0.8rem; /* Further reduce padding on very small screens */
+        padding: 0.5rem;
     }
 
     .header nav a {
-        padding: 0.3rem 0.8rem; /* Reduce link padding for compactness */
+        padding: 0.2rem 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    section p {
+        font-size: 0.8rem;
+    }
+
+    .project-grid {
+        gap: 0.8rem;
     }
 }

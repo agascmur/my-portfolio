@@ -5,8 +5,9 @@ const About = () => {
     <section id="about">
       <h2>About Me</h2>
       <p>
-        Hi, I'm [Your Name]. I'm a [Your Role, e.g., Frontend Developer] with a passion for
-        creating amazing web experiences. Welcome to my portfolio!
+      Hi, I'm Àngel, aka @agascmur.
+      I'm a Software Developer who started playing video games on a Game Boy Color and ended up doing PRs. 
+      Welcome to my portfolio!
       </p>
     </section>
   );
