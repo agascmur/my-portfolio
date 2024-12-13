@@ -1,0 +1,58 @@
+/* Base styles for the container */
+.rickroll-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #282828;  /* Dark background color (Gruvbox dark mode) */
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  /* Styling for the content box */
+  .rickroll-content {
+    background-color: #3c3836;  /* Dark brownish background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);  /* Slight shadow for depth */
+  }
+  
+  /* Title styling */
+  .rickroll-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #fbf1c7;  /* Light yellow for the title */
+  }
+  
+  /* Description text styling */
+  .rickroll-description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #ebdbb2;  /* Off-white color for the description */
+  }
+  
+  /* Button styling */
+  .rickroll-button {
+    font-size: 1em;
+    color: #282828;  /* Dark color for button text */
+    background-color: #d79921;  /* Gruvbox yellow */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover effect */
+  .rickroll-button:hover {
+    background-color: #b57614;  /* Darker yellow-orange */
+  }
+  
+  /* Styling for the iframe container */
+  .video-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  

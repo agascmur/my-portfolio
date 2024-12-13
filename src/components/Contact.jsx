@@ -6,9 +6,8 @@ const Contact = () => {
       <h2>Contact Me</h2>
       <p>Feel free to reach out!</p>
       <ul>
-        <li>Email: your.email@example.com</li>
-        <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">Your LinkedIn</a></li>
-        <li>GitHub: <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">Your GitHub</a></li>
+        <li>Email: agascmur@gmail.com</li>
+        <li>GitHub: <a href="https://github.com/agascmur" target="_blank" rel="noopener noreferrer">Your GitHub</a></li>
       </ul>
     </section>
   );

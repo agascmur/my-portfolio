@@ -5,9 +5,8 @@ const About = () => {
     <section id="about">
       <h2>About Me</h2>
       <p>
-      Hi, I'm Àngel, aka @agascmur.
-      I'm a Software Developer who started playing video games on a Game Boy Color and ended up doing PRs. 
-      Welcome to my portfolio!
+        Hi, I'm Àngel, also known as @agascmur. I'm a Software Developer currently working in the Industry 4.0 field.<br />
+        I don't have many projects on GitHub because I've been overworked at my job (and uploading stuff from there would be illegal xd).
       </p>
     </section>
   );
