@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import '../styles/RickRoll.css'; // For styling (optional)
 
 const RickRoll = () => {
   const [showVideo, setShowVideo] = useState(false);

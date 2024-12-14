@@ -1,8 +1,16 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react-swc';
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/my-portfolio',  // Ensure this matches the name of your repository
-})
+  base: '/my-portfolio/', // Ensure this matches the repository name
+
+  build: {
+    rollupOptions: {
+      input: {
+        main: './index.html', // Default page (Home)
+        rr: './rr.html', // New HTML page for Rick Roll
+      },
+    },
+  },
+});
