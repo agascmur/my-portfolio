@@ -6,9 +6,33 @@ const Header = () => {
     <header className="header">
       <h1>@agascmur</h1>
       <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a
+            onClick = {(e)=>{
+            e.preventDefault();
+            window.scrollTo({
+            top: document.querySelector("#about").offsetTop,
+            behavior: "smooth",
+          });}}>
+          About
+        </a>
+        <a
+            onClick = {(e)=>{
+            e.preventDefault();
+            window.scrollTo({
+            top: document.querySelector("#projects").offsetTop,
+            behavior: "smooth",
+          });}}>
+          Projects
+        </a>
+        <a
+            onClick = {(e)=>{
+            e.preventDefault();
+            window.scrollTo({
+            top: document.querySelector("#contact").offsetTop,
+            behavior: "smooth",
+          });}}>
+          Contact
+        </a>
       </nav>
     </header>
   );
