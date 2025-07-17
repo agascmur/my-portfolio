@@ -6,6 +6,7 @@ const About = () => {
       <h2>About Me</h2>
       <p>
         Hi, I'm Àngel, also known as @agascmur. I'm a Software Developer currently working in the Industry 4.0 field.
+        
       </p>
     </section>
   );
