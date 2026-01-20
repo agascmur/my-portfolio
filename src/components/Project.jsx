@@ -3,7 +3,7 @@ import React from 'react';
 
 const Project = ({ title, description, link }) => {
   return (
-    <div className="project-card">
+    <div className="project-card" draggable="false">
       <h3>{title}</h3>
       <p>{description}</p>
       <a href={link} target="_blank" rel="noopener noreferrer">
