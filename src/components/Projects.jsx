@@ -1,8 +1,11 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useContext } from 'react';
+import { LanguageContext } from '../context/LanguageContext';
 import Project from './Project';
 import projectData from '../data/projects.json';
+import '../styles/global.css';
 
 const Projects = () => {
+  const { t } = useContext(LanguageContext);
   const scrollContainerRef = useRef(null);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
@@ -45,8 +48,8 @@ const Projects = () => {
 
   return (
     <section id="projects" className="projects">
-      <h2>My Projects</h2>
-      <p className="carousel-hint">Drag to scroll →</p>
+      <h2>{t('projects.title')}</h2>
+      <p className="carousel-hint">{t('projects.hint')}</p>
       
       <div 
         className={`project-carousel ${isDragging ? 'dragging' : ''}`}
@@ -63,7 +66,7 @@ const Projects = () => {
           <Project
             key={index}
             title={project.title}
-            description={project.description}
+            descriptions={project.descriptions}
             link={project.link}
           />
         ))}

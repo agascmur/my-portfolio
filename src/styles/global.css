@@ -71,16 +71,8 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(180deg, var(--background) 0%, var(--background-alt) 100%);
-  padding: 1.5rem 2rem;
-  border-bottom: 1px solid var(--border);
-  gap: 2rem;
-  flex-wrap: wrap;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  backdrop-filter: blur(10px);
-  background-color: rgba(22, 39, 25, 0.95);
+  padding: 1rem 1rem;
+  background-color: var(--background-alt);
 }
 
 .header img {
@@ -102,24 +94,41 @@ a:hover {
   color: var(--accent);
 }
 
-.header nav {
+.nav-left {
   display: flex;
-  gap: 2rem;
-  margin-left: auto;
 }
 
-.header nav a {
-  padding: 0.5rem 0;
-  border-bottom: 2px solid transparent;
-  transition: all 0.3s ease;
-  font-size: 0.95rem;
-  letter-spacing: 0.05em;
+.nav-left ul {
+  display: flex;
+  gap: 1.5rem;
 }
 
-.header nav a:hover {
-  border-bottom-color: var(--primary);
-  color: var(--primary);
-  letter-spacing: 0.1em;
+.nav-left li {
+  list-style: none;
+}
+
+.nav-right {
+  display: flex;
+}
+
+.nav-right button {
+  background-color: var(--primary);
+  color: var(--background);
+  border: none;
+  border-radius: 100px;
+  padding: 1rem;
+  margin: auto 0.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-right button:hover {
+  background-color: var(--accent);
+}
+
+.nav-right button.active {
+  background-color: var(--accent);
+  color: var(--background);
 }
 
 /* ==================== SECTIONS ==================== */

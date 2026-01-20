@@ -1,17 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { LanguageContext } from '../context/LanguageContext';
 import logo from '../assets/logo.png';
 
 const About = () => {
+  const { t } = useContext(LanguageContext);
+
   return (
-    <section id="about">
+    <section id="about" className="about">
       <img height="190em" width="190em" src={logo} alt="Logo" />
-      <h2>About Me</h2>
-      <p>
-        Hi, I'm Àngel Gascón, a software developer currently working in the Industry 4.0 space.<br />
-        I love tinkering with technology and building projects—some of which actually make it to production.<br />
-        In my free time, I enjoy hiking, gaming, and taking care of the people I care about.<br />
-        Feel free to explore my projects or get in touch!
-      </p>
+      <h2>{t('about.title')}</h2>
+      <div className="about-content">
+        {t('about.paragraphs').map((para, i) => (
+          <p key={i}>{para}</p>
+        ))}
+      </div>
     </section>
   );
 };

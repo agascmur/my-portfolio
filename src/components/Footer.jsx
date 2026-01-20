@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { LanguageContext } from '../context/LanguageContext';
 
 const Footer = () => {
+  const { t } = useContext(LanguageContext);
+
   return (
     <footer>
-      <p>&copy; {new Date().getFullYear()} @agascmur. All rights reserved.</p>
+      <div className="footer-content">
+        {t('footer.paragraphs').map((para, i) => (
+          <p key={i}>{para}</p>
+        ))}
+      </div>
     </footer>
   );
 };

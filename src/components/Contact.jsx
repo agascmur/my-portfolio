@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
+import { LanguageContext } from '../context/LanguageContext';
 
 const Contact = () => {
+  const { t } = useContext(LanguageContext);
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
 
@@ -20,14 +22,14 @@ const Contact = () => {
   return (
     <section id="contact" className="contact">
       <div className="contact-container">
-        <h2>Get In Touch</h2>
-        <p className="contact-subtitle">Have a question or want to collaborate? I'd love to hear from you.</p>
+        <h2>{t('contact.title')}</h2>
+        <p className="contact-subtitle">{t('contact.subtitle')}</p>
 
         <div className="contact-content">
           {/* Formulario */}
           <form className="contact-form" onSubmit={handleSubmit}>
             <div className="form-group">
-              <label htmlFor="name">Name</label>
+              <label htmlFor="name">{t('contact.name')}</label>
               <input
                 type="text"
                 id="name"
@@ -35,12 +37,12 @@ const Contact = () => {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                placeholder="Your name"
+                placeholder={t('contact.name')}
               />
             </div>
 
             <div className="form-group">
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email">{t('contact.email')}</label>
               <input
                 type="email"
                 id="email"
@@ -48,12 +50,12 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                placeholder="your@email.com"
+                placeholder={t('contact.email')}
               />
             </div>
 
             <div className="form-group">
-              <label htmlFor="message">Message</label>
+              <label htmlFor="message">{t('contact.message')}</label>
               <textarea
                 id="message"
                 name="message"
@@ -61,17 +63,17 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 rows="5"
-                placeholder="Tell me what's on your mind..."
+                placeholder={t('contact.message')}
               />
             </div>
 
-            <button type="submit" className="submit-btn">Send Message</button>
-            {submitted && <p className="success-msg">✓ Email client opened!</p>}
+            <button type="submit" className="submit-btn">{t('contact.send')}</button>
+            {submitted && <p className="success-msg">{t('contact.success')}</p>}
           </form>
 
           {/* Links de contacto */}
           <div className="contact-links">
-            <h3>Or connect with me on:</h3>
+            <h3>{t('contact.or')}</h3>
             <a href="mailto:agascmur@gmail.com" className="contact-link email-link">
               <span className="icon">✉</span>
               <span>agascmur@gmail.com</span>
@@ -80,7 +82,7 @@ const Contact = () => {
               href="https://www.linkedin.com/in/%C3%A0ngel-gasc%C3%B3n-m%C3%BAria-0589a7215/"
               target="_blank"
               rel="noopener noreferrer"
-              className="contact-link linkedin-link"
+              className="contact-link github-link"
             >
               <span className="icon">✒</span>
               <span>linkedin.com/angelgascon</span>

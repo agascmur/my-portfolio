@@ -1,0 +1,110 @@
+{
+  "es": {
+    "header": {
+      "home": "Inicio",
+      "projects": "Proyectos",
+      "contact": "Contacto"
+    },
+    "about": {
+      "title": "Sobre Mí",
+      "paragraphs": [
+        "Hola, soy Àngel Gascón, desarrollador de software trabajando actualmente en el ámbito de la Industria 4.0.",
+        "Me encanta trastear con tecnología y crear proyectos, algunos de los cuales llegan a producción.",
+        "En mi tiempo libre disfruto del senderismo, los videojuegos y cuidar de la gente que quiero.",
+        "¡No dudes en explorar mis proyectos o ponerte en contacto conmigo!"
+      ]
+    },
+    "projects": {
+      "title": "Mis Proyectos",
+      "hint": "Arrastra para desplazarte →",
+      "viewGithub": "Ver en GitHub"
+    },
+    "contact": {
+      "title": "Ponte en Contacto",
+      "subtitle": "¿Tienes una pregunta o quieres colaborar? Me encantaría saber de ti.",
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "send": "Enviar Mensaje",
+      "success": "✓ ¡Cliente de correo abierto!",
+      "or": "O conéctate conmigo en:"
+    },
+    "footer": {
+      "paragraphs": [
+        "© 2026 agascmur. Todos los derechos reservados."
+      ]
+    }
+  },
+  "en": {
+    "header": {
+      "home": "Home",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "about": {
+      "title": "About Me",
+      "paragraphs": [
+        "Hi, I'm Àngel Gascón, a software developer currently working in the Industry 4.0 space.",
+        "I love tinkering with technology and building projects—some of which actually make it to production.",
+        "In my free time, I enjoy hiking, gaming, and taking care of the people I care about.",
+        "Feel free to explore my projects or get in touch!"
+      ]
+    },
+    "projects": {
+      "title": "My Projects",
+      "hint": "Drag to scroll →",
+      "viewGithub": "View on GitHub"
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "subtitle": "Have a question or want to collaborate? I'd love to hear from you.",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message",
+      "success": "✓ Email client opened!",
+      "or": "Or connect with me on:"
+    },
+    "footer": {
+      "paragraphs": [
+        "© 2026 agascmur. All rights reserved."
+      ]
+    }
+  },
+  "ca": {
+    "header": {
+      "home": "Inici",
+      "projects": "Projectes",
+      "contact": "Contacte"
+    },
+    "about": {
+      "title": "Sobre Mi",
+      "paragraphs": [
+        "Hola, soc Àngel Gascón, desenvolupador de software que actualment treballa en l’àmbit de la Indústria 4.0.",
+        "M'encanta experimentar amb tecnologia i crear projectes, alguns dels quals arriben a producció.",
+        "En el meu temps lliure gaudeixo del senderisme, els videojocs i de cuidar la gent que estimo.",
+        "No dubtis a explorar els meus projectes o a posar-te en contacte amb mi!"
+      ]
+    },
+    "projects": {
+      "title": "Els Meus Projectes",
+      "hint": "Arrossega per desplaçar-te →",
+      "viewGithub": "Veure a GitHub"
+    },
+    "contact": {
+      "title": "Posate en Contacte",
+      "subtitle": "¿Tens una pregunta o vols col·laborar? M'encantaria saber de tu.",
+      "name": "Nom",
+      "email": "Correu",
+      "message": "Missatge",
+      "send": "Enviar Missatge",
+      "success": "✓ Client de correu obert!",
+      "or": "O connecta amb mi a:"
+    },
+    "footer": {
+      "paragraphs": [
+        "© 2026 agascmur. Tots els drets reservats."
+      ]
+    }
+  }
+}

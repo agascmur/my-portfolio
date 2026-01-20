@@ -1,22 +1,56 @@
 [
-    {
-        "title": "Project 1",
-        "description": "Description of your first project.",
-        "link": "https://github.com/your-repo"
-    },
-    {
-        "title": "Project 2",
-        "description": "Description of your second project.",
-        "link": "https://github.com/your-repo"
-    },
-    {
-        "title": "Project 3",
-        "description": "Description of your third project.",
-        "link": "https://github.com/your-repo"
-    },
-    {
-        "title": "Project 4",
-        "description": "Description of your third project.",
-        "link": "https://github.com/your-repo"
+  {
+    "title": "Project Name",
+    "link": "https://github.com/agascmur/project-name",
+    "descriptions": {
+      "es": "Descripción en español del proyecto. Explica qué hace y las tecnologías utilizadas.",
+      "en": "Description in English of the project. Explain what it does and technologies used.",
+      "ca": "Descripció en català del projecte. Explica què fa i les tecnologies utilitzades."
     }
+  },
+  {
+    "title": "Another Project",
+    "link": "https://github.com/agascmur/another-project",
+    "descriptions": {
+      "es": "Otra descripción en español.",
+      "en": "Another description in English.",
+      "ca": "Una altra descripció en català."
+    }
+  },
+  {
+    "title": "Another Project",
+    "link": "https://github.com/agascmur/another-project",
+    "descriptions": {
+      "es": "Otra descripción en español.",
+      "en": "Another description in English.",
+      "ca": "Una altra descripció en català."
+    }
+  },
+  {
+    "title": "Another Project",
+    "link": "https://github.com/agascmur/another-project",
+    "descriptions": {
+      "es": "Otra descripción en español.",
+      "en": "Another description in English.",
+      "ca": "Una altra descripció en català."
+    }
+  },
+  {
+    "title": "Another Project",
+    "link": "https://github.com/agascmur/another-project",
+    "descriptions": {
+      "es": "Otra descripción en español.",
+      "en": "Another description in English.",
+      "ca": "Una altra descripció en català."
+    }
+  },
+  {
+    "title": "Another Project",
+    "link": "https://github.com/agascmur/another-project",
+    "descriptions": {
+      "es": "Otra descripción en español.",
+      "en": "Another description in English.",
+      "ca": "Una altra descripció en català."
+    }
+  }
 ]

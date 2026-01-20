@@ -1,13 +1,16 @@
 // src/components/Project.jsx
-import React from 'react';
+import React, { useContext } from 'react';
+import { LanguageContext } from '../context/LanguageContext';
 
-const Project = ({ title, description, link }) => {
+const Project = ({ title, link, descriptions }) => {
+  const { language, t } = useContext(LanguageContext);
+
   return (
     <div className="project-card" draggable="false">
       <h3>{title}</h3>
-      <p>{description}</p>
+      <p>{descriptions[language]}</p>
       <a href={link} target="_blank" rel="noopener noreferrer">
-        View on GitHub
+        {t('projects.viewGithub')}
       </a>
     </div>
   );
