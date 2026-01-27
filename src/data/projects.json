@@ -1,56 +1,41 @@
 [
   {
-    "title": "Project Name",
-    "link": "https://github.com/agascmur/project-name",
+    "title": "Media Check",
+    "link": "https://github.com/agascmur/Media-Check",
     "descriptions": {
-      "es": "Descripción en español del proyecto. Explica qué hace y las tecnologías utilizadas.",
-      "en": "Description in English of the project. Explain what it does and technologies used.",
-      "ca": "Descripció en català del projecte. Explica què fa i les tecnologies utilitzades."
+      "es": [
+        "App desarrollada con Flutter para guardar y organizar el contenido multimedia que has consumido, como películas, series o novelas.",
+        "Utiliza la API de Wikipedia para obtener información de forma automática sobre lo que guardas.",
+        "Se centra en una experiencia ligera, sin anuncios ni monetización, priorizando la privacidad y la sencillez."
+      ],
+      "en": [
+        "A Flutter app to save and organize the multimedia content you've consumed, such as movies, series, or novels.",
+        "It uses the Wikipedia API to automatically fetch information about what you save.",
+        "It focuses on a lightweight experience with no ads or monetization, prioritizing privacy and simplicity."
+      ],
+      "ca": [
+        "App desenvolupada amb Flutter per guardar i organitzar el contingut multimèdia que has consumit, com pel·lícules, sèries o novel·les.",
+        "Utilitza l'API de la Viquipèdia per obtenir informació automàticament sobre el que guardes.",
+        "Es centra en una experiència lleugera, sense anuncis ni monetització, prioritzant la privacitat i la senzillesa."
+      ]
     }
   },
   {
-    "title": "Another Project",
-    "link": "https://github.com/agascmur/another-project",
+    "title": "MVP RabbitMQ RPC",
+    "link": "https://github.com/agascmur/mvp-rabbitmq-rpc",
     "descriptions": {
-      "es": "Otra descripción en español.",
-      "en": "Another description in English.",
-      "ca": "Una altra descripció en català."
+      "es": ["Demo de RabbitMQ para entender un patrón RPC básico entre servicios (Scraper y DPN Agent).", "Utilizando Docker y Docker Compose para el despliegue."],
+      "en": ["RabbitMQ demo to understand a basic RPC pattern between services (Scraper and DPN Agent).", "Using Docker and Docker Compose for deployment."],
+      "ca": ["Demo de RabbitMQ per entendre un patró RPC bàsic entre serveis (Scraper i DPN Agent).", "Utilitzant Docker i Docker Compose per al desplegament."]
     }
   },
   {
-    "title": "Another Project",
-    "link": "https://github.com/agascmur/another-project",
+    "title": "To be build...",
+    "link": "https://github.com/agascmur",
     "descriptions": {
-      "es": "Otra descripción en español.",
-      "en": "Another description in English.",
-      "ca": "Una altra descripció en català."
-    }
-  },
-  {
-    "title": "Another Project",
-    "link": "https://github.com/agascmur/another-project",
-    "descriptions": {
-      "es": "Otra descripción en español.",
-      "en": "Another description in English.",
-      "ca": "Una altra descripció en català."
-    }
-  },
-  {
-    "title": "Another Project",
-    "link": "https://github.com/agascmur/another-project",
-    "descriptions": {
-      "es": "Otra descripción en español.",
-      "en": "Another description in English.",
-      "ca": "Una altra descripció en català."
-    }
-  },
-  {
-    "title": "Another Project",
-    "link": "https://github.com/agascmur/another-project",
-    "descriptions": {
-      "es": "Otra descripción en español.",
-      "en": "Another description in English.",
-      "ca": "Una altra descripció en català."
+      "es": "...",
+      "en": "...",
+      "ca": "..."
     }
   }
 ]
