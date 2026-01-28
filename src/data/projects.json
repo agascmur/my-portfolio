@@ -22,11 +22,14 @@
   },
   {
     "title": "MVP RabbitMQ RPC",
-    "link": "https://github.com/agascmur/mvp-rabbitmq-rpc",
+    "link": "https://github.com/agascmur/rabbitMQdemo",
     "descriptions": {
-      "es": ["Demo de RabbitMQ para entender un patrón RPC básico entre servicios (Scraper y DPN Agent).", "Utilizando Docker y Docker Compose para el despliegue."],
-      "en": ["RabbitMQ demo to understand a basic RPC pattern between services (Scraper and DPN Agent).", "Using Docker and Docker Compose for deployment."],
-      "ca": ["Demo de RabbitMQ per entendre un patró RPC bàsic entre serveis (Scraper i DPN Agent).", "Utilitzant Docker i Docker Compose per al desplegament."]
+      "es": ["Demo de RabbitMQ para entender un patrón RPC básico entre servicios (Scraper y DPN Agent).",
+      "Utilizando Docker y Docker Compose para el despliegue."],
+      "en": ["RabbitMQ demo to understand a basic RPC pattern between services (Scraper and DPN Agent).",
+      "Using Docker and Docker Compose for deployment."],
+      "ca": ["Demo de RabbitMQ per entendre un patró RPC bàsic entre serveis (Scraper i DPN Agent).",
+      "Utilitzant Docker i Docker Compose per al desplegament."]
     }
   },
   {
